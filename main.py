@@ -9,7 +9,7 @@ powerwallIP = "https://192.168.2.127"
 mydb = mysql.connector.connect(
     host="192.168.2.199",
     user="pi",
-    password="munichopen",
+    password="password",
 )
 mycursor = mydb.cursor()
 
