@@ -1,4 +1,6 @@
-# pythonPowerwall
+<p align="center">
+  <img src="https://raw.githubusercontent.com/andigandhi/pythonPowerwallTools/master/.github/banner.png">
+</p>
 Different tools for the Tesla Powerwall written in Python.
 
 ## sql_log.py
