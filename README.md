@@ -1,4 +1,6 @@
-# pythonPowerwall
+<p align="center">
+  <img src="https://raw.githubusercontent.com/andigandhi/pythonPowerwallTools/master/.github/banner.png">
+</p>
 Different tools for the Tesla Powerwall written in Python.
 
 ## sql_log.py
@@ -9,3 +11,5 @@ The SQL login data and the IP of the powerwall has to be adjusted in the first l
 This script sends a push notification to your smartphone whenever the battery is fully charged.
 This is useful as often it is financially more interesting to use the power by oneself than to deliver it to the power grid.
 The notification is done with the notify.run service which can be installed via `pip install notify-run`.
+Before starting the script you have to create a new notification channel on [Notify Run Website](https://notify.run/).
+The QR code created by the service can be scanned on a smartphone and the token (the last part of the URL) has to be added to the Python script.
